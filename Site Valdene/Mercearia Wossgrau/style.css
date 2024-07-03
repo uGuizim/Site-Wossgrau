@@ -1,95 +1,103 @@
-:root{
-    --color-1: hsl(0, 0%, 52%);
-    --color-2: hsla(60, 100%, 50%, 0.612);
-    --color-3: hsl(0, 2%, 92%);
-    --color-4: hsl(0, 0%, 7%);
-    --color-5: hsl(0, 50%,100%);
-    --color-6: hsl(142, 70%, 49%);
-    --color-7: hsla(60, 94%, 37%, 0.612);
-  }
-.navbar{
-    background-color: var(--color-2);
-}
-.masthead{
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 3.5rem);
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/img/wp8562689-toasted-bread-wallpapers\ \(1\).jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    
-}
-.masthead #itens{
-  padding: 100px;
-}
-header.masthead h1, header.masthead .h1 {
-    font-size: 2.25rem;
-  }
-  @media (min-width: 992px) {
-    header.masthead {
-      height: 100vh;
-      min-height: 40rem;
-      padding-top: 4.5rem;
-      padding-bottom: 0;
-    }
-    header.masthead p {
-      font-size: 1.15rem;
-    }
-    header.masthead h1, header.masthead .h1 {
-      font-size: 3rem;
-    }
-  }
-  @media (min-width: 1200px) {
-    header.masthead h1, header.masthead .h1 {
-      font-size: 3.5rem;
-    }
-  } 
-#about{
-    color: var(--color-4);
-    width: 50%;
-    display: inline-block;
+:root {
+  --color-1: hsl(210, 10%, 50%); /* Azul escuro */
+  --color-2: hsl(0, 0%, 90%); /* Cinza claro */
+  --color-3: hsl(0, 0%, 100%); /* Branco */
+  --color-4: hsl(0, 0%, 20%); /* Preto */
+  --color-5: hsl(40, 100%, 50%); /* Laranja */
+  --color-6: hsl(200, 80%, 40%); /* Azul claro */
+  --color-7: hsl(200, 80%, 40%); /* Azul claro */
 }
 
-#divider{
-    color: var(--color-2);
-    height: 10px;
+.navbar {
+  background-color: var(--color-2);
 }
-.img{
-    position: relative;
-    display: flex;
-    
+
+.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 3.5rem);
+  background: linear-gradient(to bottom, rgb(3, 3, 3) 0%, rgba(92, 77, 66, 0.8) 100%), url("/img/wp8562689-toasted-bread-wallpapers\ \(1\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
-#section1{
+
+.masthead #itens {
+  padding: 100px;
+}
+
+header.masthead h1, header.masthead .h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1, header.masthead .h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1, header.masthead .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+#about {
+  color: var(--color-4);
+  width: 50%;
+  display: inline-block;
+}
+
+#divider {
+  color: var(--color-2);
+  height: 10px;
+}
+
+.img {
+  position: relative;
+  display: flex;
+}
+
+#section1 {
   width: 100%;
   padding: 30px;
 }
-.img img{
+
+.img img {
   border-radius: 10%;
 }
 
-#botao{
+#botao {
   color: var(--color-4);
   background-color: var(--color-2);
   height: 50px;
-  text-align:center;  
+  text-align: center;
   padding: 10px;
 }
 
-#iframemap{
+#iframemap {
   width: 350px;
   height: 300px;
   border-radius: 2%;
   margin-left: 3%;
 }
 
-.back{
+.back {
   background-color: var(--color-2);
   margin-top: 5%;
   padding-top: 5%;
 }
 
-#botao2{
+#botao2 {
   background-color: var(--color-3);
   width: 150px;
   height: 50px;
@@ -98,7 +106,7 @@ header.masthead h1, header.masthead .h1 {
   align-items: center;
 }
 
-#botao3{
+#botao3 {
   color: var(--color-4);
   background-color: var(--color-6);
   height: 70px;
@@ -107,25 +115,25 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
 }
 
-#whatsapp{
+#whatsapp {
   height: 50px;
   width: 50px;
   position: fixed!important;
   bottom: 10px;
-  right:10px;
+  right: 10px;
   background-color: var(--color-6);
   color: var(--color-5);
   font-size: 25px;
 }
 
-.card{
+.card {
   height: 500px;
 }
 
-footer{
+footer {
   background-color: var(--color-7);
 }
 
-a{
+a {
   color: black;
 }
