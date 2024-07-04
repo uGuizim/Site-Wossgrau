@@ -21,15 +21,15 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active me-2" aria-current="page" href="#">Home</a>
-          <a class="nav-link me-2" href="#">Sobre nós</a>
-          <a class="nav-link me-2" href="#">Produtos</a>
-          <a class="nav-link me-2" href="#">Contato</a>
+          <a class="nav-link active me-2" aria-current="page" href="#home">Home</a>
+          <a class="nav-link me-2" href="#about">Sobre nós</a>
+          <a class="nav-link me-2" href="#products">Produtos</a>
+          <a class="nav-link me-2" href="#contact">Contato</a>
         </div>
       </div>
     </div>
   </nav> <!-- BARRA DE NAVEGAÇÃO DA PÁGINA -->
-  <header class="masthead">
+  <header class="masthead" id="home">
     <div class="container">
       <div class="row gx-4 gx-lg-5 justify-content-center text-center" id="itens">
         <div class="col col-sm col-lg-8">
@@ -38,70 +38,67 @@
         </div>
         <div class="col col-sm col-lg-8 align-self-baseline">
           <p class="text-white mb-5">Trabalhando com excelência desde 1999!</p>
-          <a class="btn" href="#about" id="botao">Descubra</a>
           <p class="text-white mt-5">Especializada em vendas</p>
         </div> 
       </div>
     </div>
 
   </header> <!-- CABEÇALHO DA PÁGINA -->
-  <section class="page-section d-flex mt-5">
+  <section class="page-section d-flex mt-5 text-center" id="about">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6 text-center">
-          <h2>Conheça-nos</h2>
-          <hr id="divider" />
-          <p class="text-white-75">Na Mercearia Wossgrau trabalhamos com a venda de diversas coisas de acordo com a
-            demanda de nossos clientes.</p>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Conheça-nos</h2>
+                <hr id="divider" />
+                <p class="text-white-75">Na Mercearia Wossgrau trabalhamos com a venda de diversas coisas de acordo com a demanda de nossos clientes.</p>
+            </div>
         </div>
-        <div class="col-md-6 text-center">
-          <img width="50%" src="/Site Valdene/Mercearia Wossgrau/img/Mercearia.png" alt="">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="https://scontent.fcfc2-1.fna.fbcdn.net/v/t39.30808-1/275054134_1281023122303533_4538573488633507868_n.jpg?stp=dst-jpg_p200x200&_nc_cat=107&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=bX9iHK30OOYQ7kNvgHFi-ow&_nc_ht=scontent.fcfc2-1.fna&oh=00_AYDCO3eU2wcVlArOFr2AY8VEAi2H6a66ZGIb-2lYLRpCdA&oe=668C9B50" alt="">
+            </div>
         </div>
-      </div>
-      <div class="row mt-5 mb-5">
-        <div class="col-sm-12 text-center">
-          <a class="btn btn-xl" id="botao">Descubra mais</a>
+        <div class="row mt-5 mb-20">
+            <div class="col-sm-12">
+                <a href="https://www.facebook.com/people/Mercearia-Wossgrau/100028534523015/?locale=pt_PT" class="btn btn-xl" id="botao">Descubra mais</a>
+            </div>
         </div>
-      </div>
     </div>
-  </section> <!-- INTRODUÇÃO -->
-  <main class="page-section d-flex mt-5">
+</section> <!-- INTRODUÇÃO -->
+  <main class="page-section d-flex mt-5" id="products">
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
             <div class="card mt-5 " style="width: 70%; margin-left: 14%;">
-              <img src="/Site Valdene/Mercearia Wossgrau/img/Oleo.png" class="card-img-top" alt="">
+              <img  src="https://superprix.vteximg.com.br/arquivos/ids/176449-600-600/Oleo-de-Soja-Soya-900ml.png?" alt="">
               <div class="card-body">
                 <h5 class="card-title">Azeite</h5>
                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, dolorem. Voluptates illum vitae </p>
-                <a class="btn btn-xl" id="botao">Saiba mais</a>
               </div>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="card  mt-5 " style="width: 70%; margin-left: 14%;">
-              <img src="/Site Valdene/Mercearia Wossgrau/img/Oleo-de-Soja-Soya.png" class="card-img-top" alt="">
+              <img height="60%" src="https://cdn.samaisvarejo.com.br/portal/principal/arquivos/listas/34468/capa/dest_20231023_cervejas_645.jpg" class="card-img-top" alt="">
               <div class="card-body">
                 <h5 class="card-title">Cerveja</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, itaque?</p>
-                <a class="btn btn-xl" id="botao">Saiba mais</a>
               </div>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="card mt-5" style="width: 70%; margin-left: 14%;">
-              <img src="/img/pirogue.png" class="card-img-top" alt="">
+              <img src="https://static.paodeacucar.com/img/uploads/1/779/529779.jpg" class="card-img-top" alt="">
               <div class="card-body">
                 <h5 class="card-title">Arroz</h5>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quibusdam.</p>
-                <a class="btn btn-xl" id="botao">Saiba mais</a>
               </div>
             </div>
           </div>
         </div>
     
   </main> <!-- CONTEÚDO PRINCIPAL: PRODUTOS -->
-  <section class="back">
+  <section class="back" id="contact">
     <div class="page-section d-flex">
       <div class="container mt-5">
         <div class="row text-center">
@@ -124,7 +121,7 @@
       </div>
     </div>
   </section>
-    <a href="https://wa.me/554796454652" class="btn bi bi-whatsapp text-center" id="whatsapp"></a>
+    <a href="https://wa.me/554791685260" class="btn bi bi-whatsapp text-center" id="whatsapp"></a>
   <footer>
     <div class="container">
       <div class="row">
