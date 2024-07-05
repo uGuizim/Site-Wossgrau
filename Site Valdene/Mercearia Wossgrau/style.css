@@ -1,11 +1,12 @@
 :root {
-  --color-1: hsl(0, 0%, 100%); /* Azul escuro */
-  --color-2: hsl(0, 0%, 90%); /* Cinza claro */
+  --color-1: hsl(40, 100%, 50%); /* Laranja */
+  --color-2: hsl(0, 0%, 100%); /* Cinza claro */
   --color-3: hsl(0, 0%, 100%); /* Branco */
-  --color-4: hsl(0, 0%, 20%); /* Preto */
-  --color-5: hsl(40, 100%, 50%); /* Laranja */
-  --color-6: hsl(36, 100%, 50%); /* Azul claro */
-  --color-7: hsl(40, 100%, 50%); /* Azul claro */
+  --color-4: hsl(0, 0%, 10%); /* Preto */
+  --color-5: hsl(36, 100%, 50%); /* Azul claro */
+  --color-6: hsl(40, 100%, 60%); /* Laranja mais claro */
+  --color-7: hsl(40, 100%, 70%); /* Laranja ainda mais claro */
+  --color-8: hsl(125, 75%, 41%); /* verde */
 }
 
 .navbar {
@@ -15,7 +16,7 @@
 .masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 3.5rem);
-  background: linear-gradient(to bottom, rgb(3, 3, 3) 0%, rgba(175, 113, 68, 0.8) 100%), url("/img/wp8562689-toasted-bread-wallpapers\ \(1\).jpg");
+  background: linear-gradient(to bottom, rgb(3, 3, 3) 0%, rgba(221, 145, 91, 0.8) 100%), url("/img/wp8562689-toasted-bread-wallpapers\ \(1\).jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -121,8 +122,8 @@ header.masthead h1, header.masthead .h1 {
   position: fixed!important;
   bottom: 10px;
   right: 10px;
-  background-color: var(--color-6);
-  color: var(--color-5);
+  background-color: var(--color-3);
+  color: var(--color-8);
   font-size: 25px;
 }
 
