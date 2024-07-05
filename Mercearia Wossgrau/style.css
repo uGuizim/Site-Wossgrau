@@ -128,7 +128,9 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .card {
-  height: 500px;
+  height: 55vh;
+  border-color: black;
+  box-shadow:10px 10px 5px 0px var(--color-4);
 }
 
 footer {
